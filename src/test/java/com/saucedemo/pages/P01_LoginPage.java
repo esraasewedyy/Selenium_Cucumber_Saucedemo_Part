@@ -9,6 +9,8 @@ public class P01_LoginPage extends P00_BasePage {
     @FindBy(xpath = "//input[@id='user-name']")
     private WebElement usernameInput;
 
+    
+
     @FindBy(xpath = "//input[@id='password']")
     private WebElement passwordInput;
 

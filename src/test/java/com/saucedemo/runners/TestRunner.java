@@ -9,8 +9,7 @@ import org.testng.annotations.DataProvider;
         glue = {"com.saucedemo.steps"}
 
       , tags =
-        "@login or @Regression or " +
-        "@Smoke"
+        "@login or @Regression or " + "@Smoke"
         ,
         plugin = {"pretty","html:target/report/cucumber.html",
                 "json:target/report/cucumber.json","io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"}
